@@ -6,4 +6,4 @@ The goal is to touch(or press) the numbers in chronological order as fast as pos
 Hope you'd like it!
 
 ![My Image](ttnfull.png)
-![My Image](ttnmobile.png)
+![My Image](ttnmobile.jpeg)
