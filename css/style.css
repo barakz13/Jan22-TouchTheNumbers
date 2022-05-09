@@ -1,72 +1,136 @@
-h1 {
-    text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-table {
-    margin-left: 16cm;
-    margin-top: 1cm;
+body {
+  margin: 0;
+  height: 96vh;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.main-section {
+  height: 88vh;
+  display: flex;
+}
+
+.table-section {
+  flex: 0.7;
+}
+
+.table-div {
+  display: flex;
+  justify-content: center;
+  margin-right: 43%;
 }
 
 .board td {
-    width: 25px;
-    height: 25px;
-    font-size: 400%;
-    text-align: center;
-    transition: 0.5s;
+  width: 25px;
+  height: 25px;
+  font-size: 200%;
+  text-align: center;
+  transition: 0.3s;
 }
 
 .clicked {
-    background-color: yellow;
+  background-color: yellow;
+}
+
+.settings-section {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timer {
-    background-color: lightseagreen;
-    display: block;
-    position: absolute;
-    top: 85px;
-    padding: 20px;
-    height: 40px;
-    width: 250px;
-    left: 50px;
-    border: solid;
-    text-align: center;
-    font-size: xx-large;
+  background-color: lightseagreen;
+  padding: 20px;
+  height: 40px;
+  width: 250px;
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .again {
-    display: none;
-    width: 100px;
-    top: 200px;
-    left: 150px;
-    position: absolute;
+  /* display: none; */
+  width: 100px;
+}
+
+.btns-difficulty {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
 }
 
 .easy {
-    display: block;
-    width: 70px;
-    height: 30px;
-    top: 275px;
-    left: 74px;
-    position: absolute;
-    font-size: medium;
+  width: 70px;
+  height: 30px;
+  font-size: medium;
 }
 
 .normal {
-    display: block;
-    width: 70px;
-    height: 30px;
-    top: 275px;
-    left: 163px;
-    position: absolute;
-    font-size: medium;
+  width: 70px;
+  height: 30px;
+  font-size: medium;
 }
 
 .hard {
-    display: block;
-    width: 70px;
-    height: 30px;
-    top: 275px;
-    left: 251px;
-    position: absolute;
-    font-size: medium;
+  width: 70px;
+  height: 30px;
+  font-size: medium;
+}
+
+@media (max-width: 1400px) {
+  .table-div {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .main-section {
+    flex-direction: column;
+  }
+
+  .settings-section {
+    justify-content: space-evenly;
+  }
+
+  .board td {
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .timer {
+    font-size: 22px;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+
+  .board td {
+    font-size: 100%;
+    padding: 12px;
+  }
 }
