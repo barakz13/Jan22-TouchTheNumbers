@@ -11,6 +11,7 @@ body {
 h1 {
   text-align: center;
   font-size: 45px;
+  margin-top: 50px;
 }
 
 .main-section {
@@ -20,6 +21,7 @@ h1 {
 
 .table-section {
   flex: 0.7;
+  margin-top: 150px;
 }
 
 .table-div {
@@ -111,6 +113,10 @@ h1 {
     justify-content: space-evenly;
   }
 
+  .table-section {
+    margin-top: 0;
+  }
+
   .board td {
     font-size: 200%;
   }
@@ -119,6 +125,7 @@ h1 {
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
+    margin-top: 20px;
   }
 
   .timer {
