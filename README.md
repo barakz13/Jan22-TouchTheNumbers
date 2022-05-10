@@ -1,6 +1,6 @@
 # Touch The Numbers
 
-A little fun and responsive game I made at the beginning of my developing studies.
+A little fun game I made at the beginning of my developing studies.
 
 ## Description
 The goal is to touch(or press) the numbers in chronological order as fast as possible.
