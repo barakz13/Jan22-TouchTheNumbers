@@ -11,5 +11,7 @@ Vanilla JS, CSS, HTML
 
 Hope you'd like it!
 
+<a href="https://barakz13.github.io/touch-the-numbers/" target="blank">Link to GitHub Pages</a>
+
 ![My Image](ttnfull.png)
 ![My Image](ttnmobile.jpeg)
